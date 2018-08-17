@@ -2,10 +2,10 @@
 Docker image to set up dev environment for RescueKerala
 
 To build the image (from the directory containing the docker file):
-> docker build -t <image-name> .
+> docker build -t image-name .
 
 To run the image :
-> docker run --rm -it -p 8000:8000 <image-name> /bin/bash
+> docker run --rm -it -p 8000:8000 image-name /bin/bash
 
 From the shell do the following steps:
 1) /etc/init.d/postgresql start
